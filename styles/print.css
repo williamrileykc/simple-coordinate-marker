@@ -1,0 +1,27 @@
+/* Print Reset */
+* { background: transparent !important; text-shadow: none !important; }
+
+a, a:visited { text-decoration: underline; }
+
+thead { display: table-header-group; } 
+
+tr, img { page-break-inside: avoid; }
+
+@page { margin: 0.5cm; }
+
+p, h2, h3 { orphans: 3; widows: 3; }
+
+h2, h3{ page-break-after: avoid; }
+
+/* Custom Print */
+.menu {display:none; visibility:hidden;}
+
+body {font-size: 12pt;}
+h1 {font-size:20pt;}
+h2 {font-size:16pt;}
+h3 {font-size:14pt;}
+h4 {font-size:10pt;}
+
+.content {width:auto; padding:0; margin:0; float:none;}
+
+html, body, form {height: auto; width:auto;}

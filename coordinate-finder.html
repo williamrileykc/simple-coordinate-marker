@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>  <html class="ie ie6 lte9 lte8 lte7"> <![endif]-->
+<!--[if IE 7]>     <html class="ie ie7 lte9 lte8 lte7"> <![endif]-->
+<!--[if IE 8]>     <html class="ie ie8 lte9 lte8"> <![endif]-->
+<!--[if IE 9]>     <html class="ie ie9 lte9"> <![endif]-->
+<!--[if gt IE 9]>  <html> <![endif]-->
+<!--[if !IE]><!--> <html>             <!--<![endif]-->
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Client: HTML Conversion</title>
+<link href="scripts/jquery-select2/select2.css" rel="stylesheet" type="text/css" media="all" />
+<link href="styles/styles.css" rel="stylesheet" type="text/css" media="all" />
+<link href="scripts/print.html" rel="stylesheet" type="text/css" media="print" />
+<!--[if lt IE 9]>
+	<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
+
+
+<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" />
+</head>
+
+<body>
+<div id="Container" class="liner clearfix"> 
+  <!-- Content Column -->
+  <div class="body-elements secondary container clearfix"> 
+    <!-- Header -->
+    <div class="header">
+      <header>
+        <h1>Coordinate Finder</h1>
+      </header>
+    </div>
+    <!-- .Header --> 
+    <!-- Content -->
+    <div class="content">
+      <article>
+      	<!-- Nav Bar -->
+        <div class="pod nav-bar">
+          <ul class="nav">
+            <li><a href="#">Create Photo Location</a></li>
+          </ul>
+        </div>
+      	<!-- Nav Bar -->
+        <!-- Floor Plan Photos -->
+        <div class="column-left-rail clearfix floor-plan-manage coordinates-admin">
+        	<div class="rail left">
+            <!-- Photo Nav -->
+            <div class="photo-nav coordinates-nav">
+              <div class="title pod clearfix">
+                <p class="left">Add Point</p>
+                <a id="create-coord" class="button-blue right" href="#">Add</a>
+              </div>
+              
+              <!-- Adjust Pod - Coordinate -->
+              <div class="pod adjust coordinate-nav">
+                <div class="adjust-head pod-inner clearfix">
+                  <p class="x-nav">X: <span></span></p>
+                  <p class="y-nav">Y: <span></span></p>
+                </div>
+                <div class="adjust-options pod-inner">
+                  <a class="button pod delete" href="#">Delete</a>
+                </div>
+              </div>
+              <!-- .Adjust Pod - Coordinate -->
+              
+            </div>
+            <!-- .Photo Nav -->
+          
+          
+          </div>
+          <div class="content pod right coordinates-container">
+          	<div class="floor-plan">
+              <img src="images/SAMPLE_floor-plan.jpg" border="0">
+            </div>
+            <div class="draggable coordinate-obj"><a href="#">tag</a></div>            
+          </div>
+        
+        </div>
+        <!-- .Floor Plan Photos -->
+
+
+        <!-- Tabs Example -->
+        <div style="width:400px;">
+          <!-- Tabs Pod -->
+          <div class="pod tabs" id="tabs">
+            <ul class="nav nav-tabs nav-bar">
+              <li class=""><a data-toggle="tab" href="#one">Tab One</a></li>
+              <li class=""><a data-toggle="tab" href="#two">Tab Two</a></li>
+              <li class="active"><a data-toggle="tab" href="#three">Tab Three</a></li>
+            </ul>
+            <div class="pod-inner tab-content">
+              <!-- Tab -->
+              <div class="tab-pane" id="one">           
+                <p>Tab One</p>
+              </div>
+              <!-- .Tab -->
+              <!-- Tab -->
+              <div class="tab-pane" id="two">
+                <p>Tab Two</p>
+              </div>
+              <!-- .Tab -->
+              <!-- Tab -->
+              <div class="tab-pane active" id="three">
+                <p>Tab Three</p>
+              </div>
+              <!-- .Tab -->      
+            </div>    
+          </div>
+          <!-- .Tabs Pod -->
+        </div>
+        <!-- .Tabs Example -->
+
+
+      </article>
+    </div>
+    <!-- Content --> 
+  </div>
+  <!-- .Content Column --> 
+
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/swfobject/2.2/swfobject.js"></script> 
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  <script type="text/javascript" src="scripts/jquery-ui-custom.min.js"></script> 
+  <script type="text/javascript" src="scripts/jquery-select2/select2.min.js"></script> 
+  <script type="text/javascript" src="scripts/bootstrap.min.js"></script> 
+  <script type="text/javascript" src="scripts/CoordinatesUI.js"></script> 
+
+</body>
+</html>
